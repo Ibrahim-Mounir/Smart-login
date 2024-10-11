@@ -1,0 +1,41 @@
+body {
+  font-family: "Titillium Web", sans-serif;
+}
+nav {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+.bg-main-color {
+  background-color: #24353f !important;
+}
+.main-text-color {
+  color: #17a2b8;
+}
+.login-card {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+a.link-hover:hover {
+  text-decoration: underline !important;
+}
+.login-card input {
+  color: #fff !important;
+  background-color: transparent !important;
+}
+.login-card input:focus {
+  box-shadow: none;
+}
+.login-card input::placeholder {
+  color: #dee2e6;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+#welcomeMsg {
+  font-size: 2.5rem;
+}
+section > div {
+  box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 40%;
+}

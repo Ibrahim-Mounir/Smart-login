@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login</title>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <body class="bg-main-color">
+      <div class="container">
+        <div class="login-card w-75 m-auto text-center my-5 p-5">
+          <h1 class="main-text-color mb-2">Smart Login System</h1>
+          <form class="sign-up-form">
+            <div class="my-3">
+              <input
+                id="signInEmail"
+                type="email"
+                class="form-control email"
+                placeholder="Enter you email"
+              />
+            </div>
+            <div class="my-3">
+              <input
+                id="signInPassword"
+                type="password"
+                class="form-control"
+                placeholder="Enter you password"
+              />
+            </div>
+            <p class="d-none" id="alertMsg"></p>
+            <button
+              type="button"
+              class="btn btn-outline-info my-3 w-100"
+              id="logIn"
+            >
+              Login
+            </button>
+            <p class="text-white">
+              You don't have an email?
+              <a href="index.html" class="text-decoration-none text-white"
+                >Sign up</a
+              >
+            </p>
+          </form>
+        </div>
+      </div>
+
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/login.js"></script>
+    </body>
+  </body>
+</html>
