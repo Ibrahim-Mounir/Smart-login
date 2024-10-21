@@ -39,3 +39,10 @@ section > div {
   transform: translateX(-50%);
   top: 40%;
 }
+
+/* media query */
+.w-95 {
+  @media (max-width: 768px) {
+    width: 95% !important;
+  }
+}
