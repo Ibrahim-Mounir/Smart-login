@@ -41,8 +41,8 @@ section > div {
 }
 
 /* media query */
-.w-95 {
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
+  .w-95 {
     width: 95% !important;
   }
 }
